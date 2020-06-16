@@ -1,0 +1,45 @@
+body{
+    margin: 0em;
+}
+
+.container-navegacao{
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    flex: wrap; /*quando a tela fica muito pequena o button desce*/
+    align-items: center; /*a logo em relaçaõ ao button fica centralizada*/
+}
+
+.container-busca{
+    border: 2px solid pink;
+    display: flex;
+    justify-content: space-around;
+}
+
+.produtos-grid{
+    /* border: 2px solid blue; */
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    max-width: 800px;
+    margin: 0 auto;
+    grid-gap: 20px; 
+}
+
+.item-produto{
+    border: 2px solid red;
+    width: 185px;
+    height: 200px;
+}
+
+.item-produto > .imgs{
+    max-width: 100%;
+    max-height: 185px;
+}
+
+
+
+
